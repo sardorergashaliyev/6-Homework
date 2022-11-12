@@ -11,7 +11,7 @@ class First extends StatelessWidget {
         title: const Text('Border on TextField'),
       ),
       body: Container(
-        margin: EdgeInsets.only(top: 50),
+        margin: const EdgeInsets.only(top: 50),
         padding: const EdgeInsets.symmetric(
           horizontal: 32,
         ),
@@ -38,7 +38,7 @@ class First extends StatelessWidget {
                   labelStyle: TextStyle(fontSize: 20)),
             ),
             Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: const EdgeInsets.only(top: 20),
               child: TextFormField(
                 keyboardType: TextInputType.number,
                 style: const TextStyle(fontSize: 32, color: Colors.red),

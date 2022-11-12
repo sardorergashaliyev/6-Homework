@@ -8,19 +8,20 @@ class Second extends StatelessWidget {
     return MaterialApp(
         home: Scaffold(
       appBar: AppBar(
-        title: const Text('Border on TextField'),
+        backgroundColor: Colors.orange,
+        title: const Text('Hint and Label TextField'),
       ),
       body: Column(
         children: [
           Container(
-            margin: EdgeInsets.only(top: 50),
-            padding: EdgeInsets.symmetric(horizontal: 20),
+            margin: const EdgeInsets.only(top: 50),
+            padding: const EdgeInsets.symmetric(horizontal: 20),
             child: TextFormField(
               keyboardType: TextInputType.emailAddress,
               style: const TextStyle(fontSize: 32, color: Colors.red),
               decoration: const InputDecoration(
                   hintText: 'Enter your email',
-                  hintStyle: TextStyle(color: Colors.black),
+                  hintStyle: TextStyle(color: Colors.black, fontSize: 20),
                   border: UnderlineInputBorder(
                     borderRadius: BorderRadius.all(Radius.circular(20)),
                   ),
@@ -35,8 +36,8 @@ class Second extends StatelessWidget {
             ),
           ),
           Container(
-            padding: EdgeInsets.symmetric(horizontal: 20),
-            margin: EdgeInsets.only(top: 20),
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            margin: const EdgeInsets.only(top: 20),
             child: TextFormField(
               keyboardType: TextInputType.number,
               style: const TextStyle(fontSize: 32, color: Colors.red),
