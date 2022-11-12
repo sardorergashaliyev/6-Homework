@@ -124,7 +124,7 @@ class Third extends StatelessWidget {
                           color: const Color.fromARGB(0, 0, 0, 0),
                           border: Border.all(color: Colors.black)),
                       child: const Center(
-                        child:  Text(
+                        child: Text(
                           'Cancel',
                           style: TextStyle(color: Colors.black),
                         ),
