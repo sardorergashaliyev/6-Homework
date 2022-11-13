@@ -51,6 +51,7 @@ class Six extends StatelessWidget {
                     hintStyle: TextStyle(color: Colors.black),
                     prefixIcon: Icon(
                       Icons.email,
+                      color: Colors.green,
                     ),
                     prefixIconColor: Colors.green,
                     border: OutlineInputBorder(
@@ -92,6 +93,7 @@ class Six extends StatelessWidget {
                     hintStyle: TextStyle(color: Colors.black),
                     prefixIcon: Icon(
                       Icons.lock,
+                      color: Colors.green,
                     ),
                     prefixIconColor: Colors.black,
                     border: OutlineInputBorder(
