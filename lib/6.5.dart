@@ -25,7 +25,7 @@ class Fifrh extends StatelessWidget {
                 ),
               ),
               Container(
-                margin: EdgeInsets.only(top: 10),
+                margin: const EdgeInsets.only(top: 10),
                 child: const Text(
                   'Enter your login details to access your account.',
                   style: TextStyle(
@@ -79,8 +79,14 @@ class Fifrh extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.only(top: 20, left: 30),
-                    child: const Text('Forgot password?',style: TextStyle(color: Colors.red, fontWeight: FontWeight.w700, fontSize: 18),),
+                    margin: const EdgeInsets.only(top: 20, left: 30),
+                    child: const Text(
+                      'Forgot password?',
+                      style: TextStyle(
+                          color: Colors.red,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 18),
+                    ),
                   )
                 ],
               )
